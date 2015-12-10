@@ -1,2 +1,2 @@
 Image
-Pillow==2.7.0
+Pillow==3.0.0
