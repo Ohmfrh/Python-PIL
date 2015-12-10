@@ -8,11 +8,7 @@ def main():
     image_one = Image.open(filename_one)
     image_two = Image.open(filename_two)
 
-    image_blended = Image.blend(image_one, image_two, 0.2)
-
-    # image_one.show()
-    # image_two.show()
-    image_blended.show()
+    Image.composite(image_one, image_two, image_two).show()
 
     del image_one, image_two
 
