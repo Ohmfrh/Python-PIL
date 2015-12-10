@@ -6,9 +6,11 @@ def main():
 
     image = Image.open(filename)
 
-    image.show()
+    image_c = image.convert("1")
 
-    del image
+    image_c.show()
+
+    del image, image_c
 
 
 if __name__ == "__main__":
